@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "us-east-1"
+  profile = "myaws"
+  region  = "us-east-1"
 }
 
 #To create an Ec2 Instance in us-east-1
